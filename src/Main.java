@@ -10,7 +10,7 @@ public class Main {
         // operators.calculate();
 
         // primitive data types
-        PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
+        // PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
         // dataTypes.explainInteger();
         // dataTypes.explainDouble();
         // dataTypes.castNumber();
@@ -18,6 +18,9 @@ public class Main {
         // dataTypes.parseData();
 
         CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
-        collectionFrameworks.explainArray();
+        // collectionFrameworks.explainArray();
+        // collectionFrameworks.explainArrayList();
+        // collectionFrameworks.explainHashSet();
+        collectionFrameworks.explainHashMap();
     }
 }

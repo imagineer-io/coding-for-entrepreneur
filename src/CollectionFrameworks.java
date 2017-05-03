@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
 /**
  * Array
  * ArrayList
@@ -15,5 +19,33 @@ public class CollectionFrameworks {
         System.out.println(intArray[2]); // 3
         System.out.println(intArray[3]); // 4
         System.out.println(intArray[4]); // 5
+    }
+    public void explainArrayList() {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+
+        System.out.println(arrayList.size());
+        System.out.println(arrayList.get(0));
+    }
+    public void explainHashSet() {
+        HashSet<String> hashSet = new HashSet<>();
+        hashSet.add("hello");
+        hashSet.add("hello");
+        hashSet.add("hello");
+
+        System.out.println(hashSet.size());
+        System.out.println(hashSet.contains("hello"));
+        System.out.println(hashSet.contains("Marco"));
+        // System.out.println(hashSet.get("Marco"));
+
+        ArrayList<String> arrayList = new ArrayList<String>(hashSet);
+        System.out.println(arrayList.get(0));
+    }
+    public void explainHashMap() {
+        HashMap<String, String> hashMap = new HashMap<>();
+        hashMap.put("name", "Marco");
+        System.out.println(hashMap.get("name"));
     }
 }
