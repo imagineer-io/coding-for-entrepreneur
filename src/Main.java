@@ -6,7 +6,12 @@ public class Main {
         // System.out.println("hello");
 
         // operators
-        Operators operators = new Operators();
-        operators.calculate();
+        // Operators operators = new Operators();
+        // operators.calculate();
+
+        // primitive data types
+        PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
+        dataTypes.explainInteger();
+        dataTypes.explainDouble();
     }
 }
