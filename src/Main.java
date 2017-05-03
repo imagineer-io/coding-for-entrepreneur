@@ -14,7 +14,10 @@ public class Main {
         // dataTypes.explainInteger();
         // dataTypes.explainDouble();
         // dataTypes.castNumber();
-        dataTypes.explainString();
-        dataTypes.parseData();
+        // dataTypes.explainString();
+        // dataTypes.parseData();
+
+        CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
+        collectionFrameworks.explainArray();
     }
 }
