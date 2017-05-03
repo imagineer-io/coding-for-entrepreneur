@@ -17,10 +17,16 @@ public class Main {
         // dataTypes.explainString();
         // dataTypes.parseData();
 
-        CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
+        // collection frameworks
+        // CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
         // collectionFrameworks.explainArray();
         // collectionFrameworks.explainArrayList();
         // collectionFrameworks.explainHashSet();
-        collectionFrameworks.explainHashMap();
+        // collectionFrameworks.explainHashMap();
+
+        // if-statement
+        IfStatement ifStatement = new IfStatement();
+        // ifStatement.explainBoolean();
+        ifStatement.explainIfStatement();
     }
 }
