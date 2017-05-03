@@ -11,7 +11,10 @@ public class Main {
 
         // primitive data types
         PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
-        dataTypes.explainInteger();
-        dataTypes.explainDouble();
+        // dataTypes.explainInteger();
+        // dataTypes.explainDouble();
+        // dataTypes.castNumber();
+        dataTypes.explainString();
+        dataTypes.parseData();
     }
 }
