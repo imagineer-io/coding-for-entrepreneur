@@ -19,3 +19,20 @@ public class Classes {
         return a * b;
     }
 }
+
+class SubClasses extends Classes {
+    public SubClasses(int a, int b) {
+        super(a, b);
+    }
+
+    @Override
+    public int sum() {
+        return a + b + 100;
+    }
+    public int substract() {
+        return a - b;
+    }
+    public int divide() {
+        return a / b;
+    }
+}

@@ -51,5 +51,11 @@ public class Main {
         Classes classes2 = new Classes(2, 3);
         System.out.println(classes2.sum());
         System.out.println(classes2.multiply());
+
+        SubClasses subClasses = new SubClasses(4, 2);
+        System.out.println(subClasses.sum());
+        System.out.println(subClasses.multiply());
+        System.out.println(subClasses.substract());
+        System.out.println(subClasses.divide());
     }
 }
