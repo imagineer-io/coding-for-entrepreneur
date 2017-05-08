@@ -43,4 +43,16 @@ public class ForLoop {
             System.out.println(targetString);
         }
     }
+    public void explainWhile() {
+        int testInt = 0;
+        // while (true) {
+        //     System.out.println(testInt);
+        //     testInt++;
+        // }
+        String[] strings = {"hello", "this", "is", "Marco"};
+        while(testInt < strings.length) {
+            System.out.println(strings[testInt]);
+            testInt++;
+        }
+    }
 }
