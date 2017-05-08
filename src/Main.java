@@ -36,12 +36,20 @@ public class Main {
         // forLoop.explainWhile();
 
         // methods
-        Methods methods = new Methods();
-        methods.testMethodOne();
-        methods.testMethodTwo("two");
-        methods.testMethodTwo("zero");
+        // Methods methods = new Methods();
+        // methods.testMethodOne();
+        // methods.testMethodTwo("two");
+        // methods.testMethodTwo("zero");
         // methods.testMethodThree();
-        System.out.println(methods.testMethodThree());
-        System.out.println(methods.testMethodFour(3, 4));
+        // System.out.println(methods.testMethodThree());
+        // System.out.println(methods.testMethodFour(3, 4));
+
+        // classes
+        Classes classes = new Classes(1, 2);
+        System.out.println(classes.sum());
+        System.out.println(classes.multiply());
+        Classes classes2 = new Classes(2, 3);
+        System.out.println(classes2.sum());
+        System.out.println(classes2.multiply());
     }
 }
