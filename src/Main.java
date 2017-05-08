@@ -31,6 +31,7 @@ public class Main {
 
         // for-loop
         ForLoop forLoop = new ForLoop();
-        forLoop.explainForLoop();
+        // forLoop.explainForLoop();
+        forLoop.explainForLoopWithArrayList();
     }
 }

@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * for-loop
  * - original
@@ -27,6 +30,17 @@ public class ForLoop {
 
         for(int i=0; i < strings.length; i++ ) {
             System.out.println(strings[i]);
+        }
+    }
+    public void explainForLoopWithArrayList() {
+        String[] strings = {"hello", "this", "is", "Marco"};
+        ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(strings));
+        arrayList.add("!");
+        for(int i=0; i < arrayList.size(); i++) {
+            System.out.println((i + 1) + ". " + arrayList.get(i));
+        }
+        for(String targetString: arrayList) {
+            System.out.println(targetString);
         }
     }
 }
