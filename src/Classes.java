@@ -29,7 +29,7 @@ class SubClasses extends Classes {
     public int sum() {
         return a + b + 100;
     }
-    public int substract() {
+    public int subtract() {
         return a - b;
     }
     public int divide() {

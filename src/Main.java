@@ -45,17 +45,26 @@ public class Main {
         // System.out.println(methods.testMethodFour(3, 4));
 
         // classes
-        Classes classes = new Classes(1, 2);
-        System.out.println(classes.sum());
-        System.out.println(classes.multiply());
-        Classes classes2 = new Classes(2, 3);
-        System.out.println(classes2.sum());
-        System.out.println(classes2.multiply());
+        // Classes classes = new Classes(1, 2);
+        // System.out.println(classes.sum());
+        // System.out.println(classes.multiply());
+        // Classes classes2 = new Classes(2, 3);
+        // System.out.println(classes2.sum());
+        // System.out.println(classes2.multiply());
 
-        SubClasses subClasses = new SubClasses(4, 2);
-        System.out.println(subClasses.sum());
-        System.out.println(subClasses.multiply());
-        System.out.println(subClasses.substract());
-        System.out.println(subClasses.divide());
+        // SubClasses subClasses = new SubClasses(4, 2);
+        // System.out.println(subClasses.sum());
+        // System.out.println(subClasses.multiply());
+        // System.out.println(subClasses.subtract());
+        // System.out.println(subClasses.divide());
+
+        // access modifiers
+        AccessModifiers accessModifiers = new AccessModifiers(5, 7);
+        // accessModifiers.a = 5;
+        // accessModifiers.b = 7;
+        System.out.println(accessModifiers.sum());
+        // System.out.println(accessModifiers.a);
+        System.out.println(accessModifiers.getA());
+        // accessModifiers.setA(10);
     }
 }
