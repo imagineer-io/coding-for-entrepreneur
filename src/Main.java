@@ -30,9 +30,18 @@ public class Main {
         // ifStatement.explainIfStatement();
 
         // for-loop
-        ForLoop forLoop = new ForLoop();
+        // ForLoop forLoop = new ForLoop();
         // forLoop.explainForLoop();
         // forLoop.explainForLoopWithArrayList();
-        forLoop.explainWhile();
+        // forLoop.explainWhile();
+
+        // methods
+        Methods methods = new Methods();
+        methods.testMethodOne();
+        methods.testMethodTwo("two");
+        methods.testMethodTwo("zero");
+        // methods.testMethodThree();
+        System.out.println(methods.testMethodThree());
+        System.out.println(methods.testMethodFour(3, 4));
     }
 }
