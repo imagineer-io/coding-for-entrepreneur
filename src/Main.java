@@ -25,8 +25,12 @@ public class Main {
         // collectionFrameworks.explainHashMap();
 
         // if-statement
-        IfStatement ifStatement = new IfStatement();
+        // IfStatement ifStatement = new IfStatement();
         // ifStatement.explainBoolean();
-        ifStatement.explainIfStatement();
+        // ifStatement.explainIfStatement();
+
+        // for-loop
+        ForLoop forLoop = new ForLoop();
+        forLoop.explainForLoop();
     }
 }
